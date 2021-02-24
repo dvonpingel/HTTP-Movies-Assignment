@@ -60,10 +60,55 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  transition: 0.1s;
+  color: white;
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
 }
 .save-button:hover {
   background-color: green;
   color: white;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.change-button {
+  position: absolute;
+  top: 75px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  transition: 0.1s;
+  color: white;
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.change-button:hover {
+  background-color: green;
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.delete-button {
+  position: absolute;
+  top: 200px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightcoral;
+  transition: 0.1s;
+  color: white;
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+}
+.delete-button:hover {
+  background-color: crimson;
+  color: white;
+  transition: 0.1s;
+  cursor: pointer;
 }
 
 .home-button {
